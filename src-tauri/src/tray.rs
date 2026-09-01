@@ -129,6 +129,16 @@ impl TrayTexts {
                 projects_label: "專案",
                 no_project_label: "不使用專案",
             },
+            "pt-BR" => Self {
+                show_main: "Abrir janela principal",
+                open_website: "Abrir Site Oficial",
+                no_providers_label: "(nenhum provedor)",
+                lightweight_mode: "Modo Leve",
+                quit: "Sair",
+                _auto_label: "Automático (Failover)",
+                projects_label: "Projetos",
+                no_project_label: "Nenhum projeto",
+            },
             _ => Self {
                 show_main: "打开主界面",
                 open_website: "打开官方网站",
