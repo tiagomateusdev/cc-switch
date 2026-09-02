@@ -26,7 +26,15 @@ const normalizeLanguage = (lang?: string | null): Language => {
     return "zh-TW";
   }
 
-  if (normalized === "en" || normalized === "ja" || normalized === "pt-BR" || normalized.startsWith("pt")) {
+  if (normalized === "en") {
+    return "en";
+  }
+
+  if (normalized === "ja") {
+    return "ja";
+  }
+
+  if (normalized === "pt-br" || normalized.startsWith("pt")) {
     return "pt-BR";
   }
 
