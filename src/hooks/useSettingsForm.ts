@@ -10,7 +10,7 @@ export type SettingsFormState = Omit<Settings, "language"> & {
 };
 
 const normalizeLanguage = (lang?: string | null): Language => {
-  if (!lang) return "zh";
+  if (!lang) return "pt-BR";
   const normalized = lang.toLowerCase().replace(/_/g, "-");
 
   if (normalized === "zh") {
@@ -26,15 +26,15 @@ const normalizeLanguage = (lang?: string | null): Language => {
     return "zh-TW";
   }
 
-  if (normalized === "en" || normalized === "ja" || normalized === "pt-BR") {
-    return normalized;
+  if (normalized === "en" || normalized === "ja" || normalized === "pt-BR" || normalized.startsWith("pt")) {
+    return "pt-BR";
   }
 
   if (normalized.startsWith("zh")) {
     return "zh";
   }
 
-  return "zh";
+  return "pt-BR";
 };
 
 const isSupportedLanguage = (lang?: string | null): boolean => {

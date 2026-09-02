@@ -56,7 +56,7 @@ const getInitialLanguage = (): Language => {
     return "ja";
   }
 
-  if (navigatorLang?.startsWith("pt-BR")) {
+  if (navigatorLang?.startsWith("pt")) {
     return "pt-BR";
   }
 

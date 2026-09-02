@@ -140,14 +140,14 @@ impl TrayTexts {
                 no_project_label: "Nenhum projeto",
             },
             _ => Self {
-                show_main: "打开主界面",
-                open_website: "打开官方网站",
-                no_providers_label: "(无供应商)",
-                lightweight_mode: "轻量模式",
-                quit: "退出",
-                _auto_label: "自动 (故障转移)",
-                projects_label: "项目",
-                no_project_label: "不使用项目",
+                show_main: "Open main window",
+                open_website: "Open Official Website",
+                no_providers_label: "(no providers)",
+                lightweight_mode: "Lightweight Mode",
+                quit: "Quit",
+                _auto_label: "Auto (Failover)",
+                projects_label: "Projects",
+                no_project_label: "No project",
             },
         }
     }
