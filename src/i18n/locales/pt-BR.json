@@ -1237,7 +1237,8 @@
       "zetaapi": "ZetaAPI fornece modelos reais e não degradados por preços a partir de 35% do preço oficial. Oferta exclusiva CC Switch: registre-se usando este link e use o código promocional CC-SWITCH para obter 10% de desconto em sua primeira recarga!",
       "teamorouter": "TeamoRouter é um gateway LLM Agentic de nível empresarial com preços de até 90% de desconto. Oferece benefícios exclusivos para usuários do CC Switch: registre-se usando este link como novo usuário para obter 10% de desconto em sua primeira recarga!",
       "ppio": "PPIO é um provedor Cloud Agentic independente líder na China, servindo cada modelo open-source principal através de uma chave API. Registre-se usando este link e complete a verificação de identidade para receber um voucher de ¥10.",
-      "xycai": "XycAi é uma fábrica de tokens de nível empresarial: acesso em um clique a 200+ modelos globais, compensação automática de SLA e reembolso completo de 100% para cobranças anormais de cache!"
+      "xycai": "XycAi é uma fábrica de tokens de nível empresarial: acesso com um clique a 200+ modelos globais, compensação automática de SLA e reembolsos de 100% para cobranças anormais de cache!",
+      "9527code": "9527 CODE é uma plataforma de retransmissão de IA de nível empresarial e com recursos completos, oferecendo retransmissão rápida e estável para Claude Code, Codex e outros modelos mainstream. Um ano de operação contínua, 99,9% de estabilidade no serviço e suporte técnico humano 7x24. Novos usuários podem entrar em contato com o suporte para crédito experimental, com cashback ilimitado por indicação!"
     },
     "presets": {
       "ucloud": "Compshare",
@@ -1422,6 +1423,7 @@
     "reauthLogin": "Fazer re-login",
     "reauthSelectHint": "Esta conta precisa entrar novamente para habilitar o vínculo gerenciado.",
     "reauthNow": "Fazer re-login agora",
+    "duplicateAccount": "Esta conta do ChatGPT já foi adicionada. Use a conta existente.",
     "loggedInAccounts": "Contas conectadas",
     "defaultAccount": "Padrão",
     "selected": "Selecionado",
@@ -2200,6 +2202,7 @@
     }
   },
   "profiles": {
+    "switcherAriaLabel": "Projeto: {{name}}",
     "switcherTooltip": {
       "claude": "Projetos: alterne o provedor / MCP / Habilidades / arquivos de memória do Claude Code em um clique",
       "claude-desktop": "Projetos: alterne o provedor do Claude Desktop em um clique",
@@ -2714,6 +2717,7 @@
       "directory": "Diretório de Destino",
       "branch": "Branch",
       "skillsPath": "Caminho das Habilidades",
+      "ariaLabel": "Roteamento local de {{appLabel}}",
       "hint": "Isso adicionará o repositório de Habilidades à lista.",
       "hintDetail": "Após adicionar, você poderá instalar Habilidades específicas a partir da página de gerenciamento de Habilidades."
     },
